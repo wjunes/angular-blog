@@ -2,9 +2,9 @@
 
 .container__big-card{
   width: 400px;
-  height: 460px;
-  border: solid 2px #F1F1F1;
-  margin: .25rem;
+  height: 473px;
+  margin-bottom: 1.5rem;
+  margin-right: 10px;
   padding: .45rem;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,8 @@
 
 .big-card__text > p > a{
   color: grey;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .container__big-card a{
