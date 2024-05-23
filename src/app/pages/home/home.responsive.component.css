@@ -1,0 +1,19 @@
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+
+  .container__articles{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+  }
+
+      
+}
+
+
+
+
+

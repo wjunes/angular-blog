@@ -1,0 +1,28 @@
+@media screen and (min-width: 360px) and (max-width: 1024px){
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:fit-content;
+        margin-top: 1rem;
+        border: solid 2px  #fff;
+        color: #fff;
+        background-color: #111111;
+        position: fixed;
+        bottom: 2px;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+
+    .footer > a {
+        margin: .5rem;
+    }
+
+    .footer > p{
+        margin-top: .5rem;
+    }
+}
+
+
