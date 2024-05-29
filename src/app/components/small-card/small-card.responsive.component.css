@@ -4,17 +4,17 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    margin-bottom: .8rem;
-    padding: .5rem;
+    margin-bottom: .5rem;
+    padding: .25rem;
     gap: .5rem;
-    margin-left: .5rem;
+    margin-left: .2rem;
   }
   
   .container__small-card-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .5rem;
+    
     
   }
 

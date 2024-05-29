@@ -1,12 +1,12 @@
 @media screen and (min-width: 360px) and (max-width: 1024px){
 
-    .footer{
+    .footer__info{
         display: flex;
         flex-direction: column;
         width: 100%;
         height:fit-content;
         margin-top: 1rem;
-        border: solid 2px  #fff;
+        padding: .75rem;
         color: #fff;
         background-color: #111111;
         position: fixed;
@@ -17,7 +17,8 @@
     }
 
     .footer > a {
-        margin: .5rem;
+        margin-top: .5rem;
+        margin-bottom: 0;
     }
 
     .footer > p{

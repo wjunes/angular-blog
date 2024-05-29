@@ -2,7 +2,7 @@
 
 .container__big-card{
   width: 400px;
-  height: 473px;
+  height: AUTO;
   margin-bottom: 1.5rem;
   margin-right: 10px;
   padding: .45rem;
@@ -11,10 +11,11 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: .25rem;
+  
 }
 
-.container__big-card > h1 > a {
-  font-size: 20px;
+.container__big-card  h1  a {
+  font-size: 24px;
 }
 
 .big-card__text > p > a{
@@ -32,4 +33,8 @@
 
 }
 
-
+.big-card__text{
+  display: flex;
+  width: auto;
+  height: fit-content;
+}
