@@ -10,7 +10,7 @@
         color: #fff;
         background-color: #111111;
         position: fixed;
-        bottom: 2px;
+        bottom: 0px;
         align-items: center;
         justify-content: space-between;
     
@@ -23,6 +23,10 @@
 
     .footer > p{
         margin-top: .5rem;
+    }
+
+    .footer{
+        display: flex;
     }
 }
 
